@@ -1,0 +1,31 @@
+public class Student
+{
+    int roll_no;
+    String name;
+    float age;
+    void set_data(int r , String n, float a)
+    {
+        roll_no=r;
+        name=n;
+        age=a;
+    }
+    void display()
+    {
+        System.out.print("\n The Roll no of the student is " + roll_no);
+        System.out.print(" \n The Name of the student is " + name);
+        System.out.print("\n The Age of the student is " + age);
+    }
+    public static void main(String[] args) 
+    {
+        Student st1=new Student();
+        Student st2=new Student();
+        Student st3=new Student();
+        st1. set_data(07,"Jayant",20);
+        st1.display();
+        st2. set_data(18,"Ajit",23);
+        st2.display();
+        st3. set_data(15,"Tanmoy",20);
+        st3.display();
+    }
+}
+
