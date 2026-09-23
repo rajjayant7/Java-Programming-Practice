@@ -1,0 +1,22 @@
+//formatted
+class student
+{
+    public static void main(String[] args)
+    {
+        System.out.println("___BIODATA___");
+        String Name="Jayant Raj";
+        int Age=20;
+        String Gender="Male";
+        String Qualification="1st year completed";
+        String University="Sharda Universiy";
+        String City="Greater Noida";
+        String Country="India";
+        System.out.printf("Name: %s%n",Name);
+        System.out.printf("Age: %d%n",Age);
+        System.out.printf("Gender: %s%n",Gender);
+        System.out.printf("Qualification: %s%n",Qualification);
+        System.out.printf("University: %s%n",University);
+        System.out.printf("City: %s%n",City);
+        System.out.printf("Country: %s%n",Country);
+    }
+}
