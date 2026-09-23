@@ -1,0 +1,15 @@
+//escape
+class student
+{
+    public static void main(String[] args)
+    {
+        System.out.println("___BIODATA___");
+        System.out.println("Name \t\t:Jayant Raj");
+        System.out.println("Age \t\t:20");
+        System.out.println("Gender \t\t:Male");
+        System.out.println("Qualification \t\t:1st year completed");
+        System.out.println("University \t\t:Sharda University");
+        System.out.println("City \t\t:Greater Noida");
+        System.out.println("Country \t\t:India");
+    }
+}
