@@ -1,0 +1,42 @@
+class Emp 
+{
+    int emp_id;
+    String name;
+    int age;
+    float sal;
+    void setData(int id, String n, int a, float s) 
+    {
+        emp_id = id;
+        name = n;
+        age = a;
+        sal = s;
+    }
+    void display() 
+    {
+        System.out.println("Employee ID: " + emp_id);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + sal);
+        System.out.println("----------------------");
+    }
+    public static void main(String[] args) 
+    {
+        Emp emp1 = new Emp();
+        Emp emp2 = new Emp();
+        Emp emp3 = new Emp();
+        Emp emp4 = new Emp();
+        Emp emp5 = new Emp();
+
+        emp1.setData(15, "Jayant", 20, 25000);
+        emp2.setData(16, "Ajit", 40, 35000);
+        emp3.setData(17, "Tanmoy", 25, 30000);
+        emp4.setData(18, "Sarthak", 30, 45000);
+        emp5.setData(19, "Ranveer", 28, 40000);
+
+        emp1.display();
+        emp2.display();
+        emp3.display();
+        emp4.display();
+        emp5.display();
+    }
+}
